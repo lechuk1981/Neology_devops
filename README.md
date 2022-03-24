@@ -1,1 +1,1 @@
-# Neology_devops
+# Netology_devops
