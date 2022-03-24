@@ -2,7 +2,7 @@
 
 ##  Сопов Андрей первое задание 
 
-1. [Скриншоты 1-го задания](ttps://disk.yandex.ru/d/NdLRSbP9V-wB7A)
+1. [Скриншоты 1-го задания](https://disk.yandex.ru/d/NdLRSbP9V-wB7A)
 
 ## Второе задание
 
