@@ -21,7 +21,9 @@ Date:   Thu Jun 18 10:29:58 2020 -0400
     Update CHANGELOG.md
 
 2. (tag: v0.12.23)
+
 3. 56cd7859e05c36c06b56d013b55a252d0bb7e158 9ea88f22fc6269854151c571162c5bcf958bee2b
+
 4.  33ff1c03bb960b332be3af2e333462dde88b279e (tag: v0.12.24) v0.12.24
     b14b74c4939dcab573326f4e3ee2a62e23e12f89 [Website] vmc provider links
     3f235065b9347a758efadc92295b540ee0a5e26e Update CHANGELOG.md
@@ -34,4 +36,13 @@ Date:   Thu Jun 18 10:29:58 2020 -0400
     225466bc3e5f35baa5d07197bbc079345b77525e Cleanup after v0.12.23 release
     
 5. 8c928e835 main: Consult local directories as potential mirrors of providers
-6. 
+
+6.  22a2580e9 main: Use the new cliconfig package credentials source
+    35a058fb3 main: configure credentials from the CLI config file
+    c0b176109 prevent log output during init
+    8364383c3 Push plugin discovery down into command package
+
+7. Author: Martin Atkins <mart@degeneration.co.uk>
+
+
+
