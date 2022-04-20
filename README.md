@@ -33,4 +33,5 @@ Date:   Thu Jun 18 10:29:58 2020 -0400
     dd01a35078f040ca984cdd349f18d0b67e486c35 Update CHANGELOG.md
     225466bc3e5f35baa5d07197bbc079345b77525e Cleanup after v0.12.23 release
     
-5. 
+5. 8c928e835 main: Consult local directories as potential mirrors of providers
+6. 
