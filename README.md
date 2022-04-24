@@ -2,50 +2,20 @@
 
 ##  Сопов Андрей первое задание 
 
-1. [Скриншоты 1-го задания](https://disk.yandex.ru/d/NdLRSbP9V-wB7A)
 
-## Второе задание
+## Работа в терминале (лекция 1)
 
-1. Жизненный цикл приложения это все, что происходит с приложением от момента появления идеи приложения до выпуска уже готового продукта.
-2. Постановка задач -> Разработка -> Тестирование -> Развертывание
-3. Для меня как для инженера devops важно наладить непрерывный процесс разработка-тестирование-развертывание-откат
+1. У меня macbook на м1 и я не смог поставить virtualbox. В итоге установил Parallels и запустил Ubuntu 20.04
+
+2.  HISTFILESIZE 681  
+    HISTSIZE 692
+    Нашел два параметра которые могут вляить на размер истории.
+    Это максимальный число линий в файле историй и количество запоминвемых команд
+
+3.  Ignoreboth не нашел такого вообще. И даже man -k ignoreboth ничего не вывел
 
 
-## Домашнее задание по лекции "Инструменты Git"
-
-
-1. commit aefead2207ef7e2aa5dc81a34aedf0cad4c32545
-Author: Alisdair McDiarmid <alisdair@users.noreply.github.com>
-Date:   Thu Jun 18 10:29:58 2020 -0400
-
-    Update CHANGELOG.md
-
-2. (tag: v0.12.23)
-
-3. 56cd7859e05c36c06b56d013b55a252d0bb7e158 9ea88f22fc6269854151c571162c5bcf958bee2b
-
-4.  33ff1c03bb960b332be3af2e333462dde88b279e (tag: v0.12.24) v0.12.24
-    b14b74c4939dcab573326f4e3ee2a62e23e12f89 [Website] vmc provider links
-    3f235065b9347a758efadc92295b540ee0a5e26e Update CHANGELOG.md
-    6ae64e247b332925b872447e9ce869657281c2bf registry: Fix panic when server is unreachable
-    5c619ca1baf2e21a155fcdb4c264cc9e24a2a353 website: Remove links to the getting started guide's old location
-    06275647e2b53d97d4f0a19a0fec11f6d69820b5 Update CHANGELOG.md
-    d5f9411f5108260320064349b757f55c09bc4b80 command: Fix bug when using terraform login on Windows
-    4b6d06cc5dcb78af637bbb19c198faff37a066ed Update CHANGELOG.md
-    dd01a35078f040ca984cdd349f18d0b67e486c35 Update CHANGELOG.md
-    225466bc3e5f35baa5d07197bbc079345b77525e Cleanup after v0.12.23 release
+4.  {} нашел на строке 218  { list; }
+    Написано что в фигурных скобках истпользуются зарезервированные слова
     
-5. 8c928e835 main: Consult local directories as potential mirrors of providers
-
-6.  22a2580e9 main: Use the new cliconfig package credentials source
-    35a058fb3 main: configure credentials from the CLI config file
-    c0b176109 prevent log output during init
-    8364383c3 Push plugin discovery down into command package
-
-7. Author: Martin Atkins <mart@degeneration.co.uk>
-
-
-![image](https://user-images.githubusercontent.com/5323690/164971608-e40d6cf4-b637-4537-8da2-869ab2cff180.png)
-
-![image](https://user-images.githubusercontent.com/5323690/164971652-90f77cb9-b905-4594-9d67-518762cfac2b.png)
-
+5.  
