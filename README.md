@@ -24,8 +24,11 @@
     -d file True if file exists and is a directory.
     [[ -d /tmp ]] это вырожение вернет 0 если директории нет, или 1 если есть
     
-7. Создал нужную директорию в mc
+7. Создал нужные директории в mc
     ![Снимок экрана 2022-04-26 в 23 23 47](https://user-images.githubusercontent.com/5323690/165386772-72eba582-0198-4a42-8d63-0cd489057fa1.png)
 
     ![Снимок экрана 2022-04-26 в 23 24 32](https://user-images.githubusercontent.com/5323690/165386809-3e78d18a-89ec-4a55-8131-e7aaed844bf0.png)
     ![Снимок экрана 2022-04-26 в 23 25 08](https://user-images.githubusercontent.com/5323690/165386843-59e80d50-b9cf-4ff0-82a2-9f97cdd8ca25.png)
+    ![Снимок экрана 2022-04-26 в 23 23 12](https://user-images.githubusercontent.com/5323690/165387025-8e9021e5-1746-4573-9532-167f4ccde1c5.png)    
+    
+ 8. Пришлось инсталлировать at.  at - извлечени команд в заданное время, batch - когда средняя нагрузка на систему подает ниже 1.5 
