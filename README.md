@@ -15,4 +15,7 @@
  
 5. ![image](https://user-images.githubusercontent.com/5323690/166503802-8db5fece-23ce-4608-86f8-d89bc5ce0387.png)
 
+6. Смог наблюдать вывод данный в tty . Консоль на виртуалке и подключение по ssh 
+
+![image](https://user-images.githubusercontent.com/5323690/166951537-6d60675b-7498-429e-ba56-e78847d7c059.png)
 
