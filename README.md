@@ -23,4 +23,5 @@
 
 8. Я так понимаю что нужно создать пару новых дескрипторов. Перенаправляем 5<&2 , 6<&1 , а потом в 1 направляем stderr Из 5 1<&5
    только я не совсем понял как проверить 
-   ![image](https://user-images.githubusercontent.com/5323690/167081392-ae324bbc-e3c7-44d1-9be2-fd7976b995e2.png)
+   ![image](https://user-images.githubusercontent.com/5323690/167081475-123ea1a6-eb60-4974-86bf-7a5ddf0a11cb.png)
+
