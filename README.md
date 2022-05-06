@@ -19,3 +19,4 @@
 
 ![image](https://user-images.githubusercontent.com/5323690/166951537-6d60675b-7498-429e-ba56-e78847d7c059.png)
 
+7. Мы создали новый файл дескриптор и направили в него stdout. 
