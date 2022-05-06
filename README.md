@@ -29,5 +29,8 @@
 
 10. /proc/<PID>/cmdline  read-only файл с агументами командной строки. /proc/<PID>/exe содержит символическую ссыслу содержащую фактический путь к выполняемой команде
 
-11. Я так понимаю SSE 4_2 ![image](https://user-images.githubusercontent.com/5323690/167086284-944d9331-d813-45e6-8fcd-0f33a376e3c4.png)
+11. Я так понимаю SSE 4.2 ![image](https://user-images.githubusercontent.com/5323690/167086284-944d9331-d813-45e6-8fcd-0f33a376e3c4.png)
+
+12. Не совсем понял что нужно сделать. У меня вот такая штука выводится 
+ ![image](https://user-images.githubusercontent.com/5323690/167086864-a313b6c3-662c-4d25-b9be-b36a97f213a3.png)
 
