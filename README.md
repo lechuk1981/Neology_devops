@@ -21,9 +21,10 @@
 
 7. Мы создали новый файл дескриптор и направили в него stdout. 
 
-8. Я так понимаю что нужно создать пару новых дескрипторов. Перенаправляем 5<&2 , 6<&1 , а потом в 1 направляем stderr Из 5 1<&5
-   только я не совсем понял как проверить 
-   ![image](https://user-images.githubusercontent.com/5323690/167081475-123ea1a6-eb60-4974-86bf-7a5ddf0a11cb.png)
+8. Вот такая штука получилась
+
+ ![image](https://user-images.githubusercontent.com/5323690/167824389-d2758d1c-ca08-437c-b8ba-8e14f1a6228c.png)
+
 
 9. Выведется массив переменных среды окружения в конкретной сессии.  Можно вольпользоваться командой env
 
@@ -32,8 +33,10 @@
 11. Я так понимаю SSE 4.2 ![image](https://user-images.githubusercontent.com/5323690/167086284-944d9331-d813-45e6-8fcd-0f33a376e3c4.png)
 
 12. ![image](https://user-images.githubusercontent.com/5323690/167801294-8e662223-d773-4d26-9e6d-1cf167b6d029.png)
- с параметром -t
-    ![image](https://user-images.githubusercontent.com/5323690/167801648-a99abdd4-ea92-4c56-88aa-bfca1ab24df3.png)
+
+ с параметром -t . Принудительное выделение псевдотерминала
+ 
+ ![image](https://user-images.githubusercontent.com/5323690/167801648-a99abdd4-ea92-4c56-88aa-bfca1ab24df3.png)
 
 
 
