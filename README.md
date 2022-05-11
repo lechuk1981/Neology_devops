@@ -31,8 +31,11 @@
 
 11. Я так понимаю SSE 4.2 ![image](https://user-images.githubusercontent.com/5323690/167086284-944d9331-d813-45e6-8fcd-0f33a376e3c4.png)
 
-12. Не совсем понял что нужно сделать. У меня вот такая штука выводится 
- ![image](https://user-images.githubusercontent.com/5323690/167086864-a313b6c3-662c-4d25-b9be-b36a97f213a3.png)
+12. ![image](https://user-images.githubusercontent.com/5323690/167801294-8e662223-d773-4d26-9e6d-1cf167b6d029.png)
+ с параметром -t
+    ![image](https://user-images.githubusercontent.com/5323690/167801648-a99abdd4-ea92-4c56-88aa-bfca1ab24df3.png)
+
+
 
 13. С параметрами screen -s /dev/pts смог печатать в другом окне териманала
 
