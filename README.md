@@ -16,3 +16,6 @@
    ![image](https://user-images.githubusercontent.com/5323690/169391638-be46b13f-898f-4878-a82d-169b32f2a60b.png)
 
    ![image](https://user-images.githubusercontent.com/5323690/169391502-d8f4f9fa-e3de-44ae-a3a4-61b25d7c54c8.png)
+   
+   потом запустил kill с id процесса ping. После этого размер уже не увеличивался
+4. 
