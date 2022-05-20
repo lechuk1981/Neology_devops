@@ -25,4 +25,5 @@
  ![image](https://user-images.githubusercontent.com/5323690/169527448-9b89bff0-84ad-4894-a720-13f2de5a70a0.png)
    Что-то ничего не нашел. Смотрел man uname и читал про coreutils
 7. Точка запятой это разделитель, а && это логическое ИЛИ. В первом случае выполняются обе команды, во втором Echo выполнится при успешном выполнении test
-   ![image](https://user-images.githubusercontent.com/5323690/169537974-8231a5e0-8a06-4470-ade2-08f360fafce0.png)
+   ![image](https://user-images.githubusercontent.com/5323690/169538590-9d5d41f6-c173-4029-aed3-038dcfe6ffad.png)
+
