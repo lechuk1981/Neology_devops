@@ -31,5 +31,12 @@
 
  ![image](https://user-images.githubusercontent.com/5323690/172240207-d965bbae-74d4-4e53-b0e4-660f5a35597d.png)
 4. Да можно ![image](https://user-images.githubusercontent.com/5323690/172240972-478d7fa9-12a5-4325-a3d0-be33110f4253.png)
-5. 
+5. ![image](https://user-images.githubusercontent.com/5323690/172241908-8c7648d2-75d4-4f3c-bce6-53fbdd26b4fd.png)
+   Лимит открытых файловых дискрипторов которое задается через sysctl
+   
+   ![image](https://user-images.githubusercontent.com/5323690/172243051-60251504-8cdb-46da-a9bb-935aafd47ab3.png)
+Мягкий и жесткий лимит. Жесткий лимит не больше чем ограничение в fs.nr_open
+
+6. 
+ 
 
