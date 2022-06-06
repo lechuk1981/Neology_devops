@@ -30,5 +30,6 @@
 3. Проброс делал средствами parallels ![image](https://user-images.githubusercontent.com/5323690/172240583-343c620f-489b-4fa0-bff7-02d4d7f487bf.png)
 
  ![image](https://user-images.githubusercontent.com/5323690/172240207-d965bbae-74d4-4e53-b0e4-660f5a35597d.png)
-4. 
+4. Да можно ![image](https://user-images.githubusercontent.com/5323690/172240972-478d7fa9-12a5-4325-a3d0-be33110f4253.png)
+5. 
 
