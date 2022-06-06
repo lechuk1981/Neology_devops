@@ -8,6 +8,7 @@
 
 1. Установил, поместил в автозагрузку
    ![image](https://user-images.githubusercontent.com/5323690/172236478-df63cacb-1636-4692-bd67-f45765c44ce7.png)
+2.  
    node_cpu_seconds_total{cpu="1",mode="system"} 8.29
    node_cpu_seconds_total{cpu="1",mode="user"} 8.68
    node_scrape_collector_duration_seconds{collector="cpu"} 0.00013979
@@ -26,5 +27,8 @@
    node_network_info{address="00:00:00:00:00:00",broadcast="00:00:00:00:00:00",device="lo",duplex="",ifalias="",operstate="unknown"} 1
    node_network_info{address="00:1c:42:4f:07:53",broadcast="ff:ff:ff:ff:ff:ff",device="eth0",duplex="unknown",ifalias="",operstate="up"} 1
 
-![image](https://user-images.githubusercontent.com/5323690/172240207-d965bbae-74d4-4e53-b0e4-660f5a35597d.png)
+3. Проброс делал средствами parallels ![image](https://user-images.githubusercontent.com/5323690/172240583-343c620f-489b-4fa0-bff7-02d4d7f487bf.png)
+
+ ![image](https://user-images.githubusercontent.com/5323690/172240207-d965bbae-74d4-4e53-b0e4-660f5a35597d.png)
+4. 
 
