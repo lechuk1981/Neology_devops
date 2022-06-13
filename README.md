@@ -26,6 +26,9 @@
    node_network_mtu_bytes{device="lo"} 65536
    node_network_info{address="00:00:00:00:00:00",broadcast="00:00:00:00:00:00",device="lo",duplex="",ifalias="",operstate="unknown"} 1
    node_network_info{address="00:1c:42:4f:07:53",broadcast="ff:ff:ff:ff:ff:ff",device="eth0",duplex="unknown",ifalias="",operstate="up"} 1
+   
+   ![image](https://user-images.githubusercontent.com/5323690/173388827-6dff82ef-44fa-40a2-9114-45a2803aca99.png)
+
 
 3. Проброс делал средствами parallels ![image](https://user-images.githubusercontent.com/5323690/172240583-343c620f-489b-4fa0-bff7-02d4d7f487bf.png)
 
