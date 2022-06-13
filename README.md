@@ -45,4 +45,11 @@
    ![image](https://user-images.githubusercontent.com/5323690/173390099-d3180c98-f58c-40ed-93f7-068e57c47646.png)
 
  
+7. Это так называемая fork bomb , функция которая вызывается рекурсивно.
+   Нам помог cgroup ![image](https://user-images.githubusercontent.com/5323690/173391716-f54ac419-679c-4e9c-8bf2-28cfae662d81.png)
+   Настроить лимит процессов можно в 
+   ![image](https://user-images.githubusercontent.com/5323690/173392427-a8cf210b-c41b-4f17-9a6a-2f3bf3a375bf.png)
+или прописать ulimit -u 
+![image](https://user-images.githubusercontent.com/5323690/173393230-1d6da0b0-e58e-49a3-820c-84ab0e736f6d.png)
+
 
