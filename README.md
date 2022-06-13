@@ -40,6 +40,9 @@
    ![image](https://user-images.githubusercontent.com/5323690/172243051-60251504-8cdb-46da-a9bb-935aafd47ab3.png)
 Мягкий и жесткий лимит. Жесткий лимит не больше чем ограничение в fs.nr_open
 
-6. 
+6. ![image](https://user-images.githubusercontent.com/5323690/173390190-3a11e45d-79b1-4a44-b532-67fb7c82c8d1.png)
+   ![image](https://user-images.githubusercontent.com/5323690/173390052-cf9b38e5-3cc7-40c8-96ea-1d9f950354a7.png)
+   ![image](https://user-images.githubusercontent.com/5323690/173390099-d3180c98-f58c-40ed-93f7-068e57c47646.png)
+
  
 
