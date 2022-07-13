@@ -37,3 +37,11 @@
 
 ![image](https://user-images.githubusercontent.com/5323690/178717893-4b6bc970-1a6e-43d6-bf3e-eae5afc214ce.png)
 
+![image](https://user-images.githubusercontent.com/5323690/178718182-460f3732-a061-47b6-9f74-889c87abadb7.png)
+
+
+10. Создал logical volume 
+
+![image](https://user-images.githubusercontent.com/5323690/178718598-93dc2fd9-2f34-4885-9284-3fb48f72ec2a.png)
+
+
