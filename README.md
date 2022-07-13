@@ -25,4 +25,8 @@
 
 ![image](https://user-images.githubusercontent.com/5323690/178692740-004c68e9-f73b-407d-ba37-274d4951d19f.png)
 
-7. 
+7. Создал RAID 0
+
+![image](https://user-images.githubusercontent.com/5323690/178693429-9e443297-420c-4631-a471-7fd71cbd65a1.png)
+
+8. 
