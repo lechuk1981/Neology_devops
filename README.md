@@ -68,3 +68,15 @@
 16.
 
 ![image](https://user-images.githubusercontent.com/5323690/178721741-75cd1266-22e6-42d1-b5a5-4dc35bbafc1f.png)
+
+17.
+
+![image](https://user-images.githubusercontent.com/5323690/178722279-395fdb41-e0e8-448b-9d6f-df0bb81f0d68.png)
+
+18.
+
+![image](https://user-images.githubusercontent.com/5323690/178722552-0c834c26-974d-4303-9a1e-11447eea05fd.png)
+
+
+19.
+
