@@ -35,5 +35,5 @@
 
 9. Создал группу
 
-![image](https://user-images.githubusercontent.com/5323690/178717723-cbda5e82-4c90-451c-b83a-427289129507.png)
+![image](https://user-images.githubusercontent.com/5323690/178717893-4b6bc970-1a6e-43d6-bf3e-eae5afc214ce.png)
 
