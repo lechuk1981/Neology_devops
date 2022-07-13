@@ -33,4 +33,7 @@
 
 ![image](https://user-images.githubusercontent.com/5323690/178694238-84bbaa65-cd1e-423a-8937-301bec632665.png)
 
-9. 
+9. Создал группу
+
+![image](https://user-images.githubusercontent.com/5323690/178717723-cbda5e82-4c90-451c-b83a-427289129507.png)
+
