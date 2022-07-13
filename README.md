@@ -20,3 +20,9 @@
 
 ![image](https://user-images.githubusercontent.com/5323690/178690930-93188c4d-d4d2-41f5-9dbb-b44c9dc8f711.png)
 ![image](https://user-images.githubusercontent.com/5323690/178691018-48396042-10bf-441f-9087-c0f035737bf0.png)
+
+6. Создал RAID1 
+
+![image](https://user-images.githubusercontent.com/5323690/178692740-004c68e9-f73b-407d-ba37-274d4951d19f.png)
+
+7. 
