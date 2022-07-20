@@ -21,3 +21,9 @@
 8.
 
 ![image](https://user-images.githubusercontent.com/5323690/179941082-c7d99f5f-fbc2-4d0f-bee7-7bce7316241f.png)
+9.
+На 7 хосте наибольшая задержка
+![image](https://user-images.githubusercontent.com/5323690/179941592-20100f73-4a1a-4233-be70-6d3dc6db5377.png)
+10.
+
+![image](https://user-images.githubusercontent.com/5323690/179942030-c41114ca-b77a-4da4-8dde-6cfda5b5a33c.png)
