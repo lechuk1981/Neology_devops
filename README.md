@@ -13,3 +13,8 @@
 4. Дольше всего обрабатывался
 
 ![image](https://user-images.githubusercontent.com/5323690/179928559-d4bbb8ca-68fd-411a-9592-de4c016200c6.png)
+5. ![image](https://user-images.githubusercontent.com/5323690/179928717-ac3356e5-9107-4f06-bbb5-500f9a165455.png)
+6. ![image](https://user-images.githubusercontent.com/5323690/179940450-3f52d47a-7458-48c6-833d-cc4e5bf86797.png)
+7. Провайдер Macomnet
+
+![image](https://user-images.githubusercontent.com/5323690/179940634-32228f9d-e332-4585-9f7e-dedb160dd57a.png)
