@@ -27,3 +27,8 @@
 10.
 
 ![image](https://user-images.githubusercontent.com/5323690/179942030-c41114ca-b77a-4da4-8dde-6cfda5b5a33c.png)
+
+11. Обратная запись dns.google.
+
+![image](https://user-images.githubusercontent.com/5323690/179943680-ee5bc384-d467-4837-a6dd-3864def43e65.png)
+
