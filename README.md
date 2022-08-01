@@ -72,3 +72,9 @@ arp -n в ubuntu
 windows arp -a
 
 ![image](https://user-images.githubusercontent.com/5323690/182140649-62e9edf8-4c5d-4171-8a3f-dde16a9915e9.png)
+
+Очистить весь кэш  в widows arp -d *
+в ubuntu sudo ip -s -s neigh flush all
+
+Конкретный адрес sudo ip neigh delete <IP> dev <INTERFACE> 
+windows  arp -d <IP>
