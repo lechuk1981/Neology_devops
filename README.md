@@ -14,3 +14,4 @@ route-views>show bgp 185.165.163.127
 
 ![image](https://user-images.githubusercontent.com/5323690/236673451-f8fdafad-42c5-4608-a6f0-b4d33d09c48f.png)
 
+2. Создайте dummy0 интерфейс в Ubuntu. Добавьте несколько статических маршрутов. Проверьте таблицу маршрутизации.
