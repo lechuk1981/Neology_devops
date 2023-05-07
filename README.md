@@ -33,3 +33,8 @@ netdata использует порт 8125
 ![image](https://user-images.githubusercontent.com/5323690/236674299-e92533e9-efd5-4528-abaa-4dfa631963fb.png)
 
 firefox использует порт 44854
+
+### 5.Используя diagrams.net, создайте L3 диаграмму вашей домашней сети или любой другой сети, с которой вы работали.
+
+![image](https://user-images.githubusercontent.com/5323690/236675019-ae1e247b-41de-40a3-83fd-85eb8b03336c.png)
+
