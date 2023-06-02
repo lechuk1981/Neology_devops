@@ -70,13 +70,13 @@ done
 ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/59f0a7c1-1b2f-456a-9fc3-c1ea5a5130c9)
 
 
-### 4. Проверьте используемые UDP сокеты в Ubuntu, какие протоколы и приложения используют эти порты?
+### 4. Необходимо написать скрипт, который проверяет доступность трёх IP: 192.168.0.1, 173.194.222.113, 87.250.250.242 по 80 порту и записывает результат в файл log. Проверять доступность необходимо пять раз для каждого узла.
 
-![image](https://user-images.githubusercontent.com/5323690/236674299-e92533e9-efd5-4528-abaa-4dfa631963fb.png)
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/0b2d1ab8-eeb0-4690-93d8-61aca059cac6)
 
-firefox использует порт 44854
 
-### 5.Используя diagrams.net, создайте L3 диаграмму вашей домашней сети или любой другой сети, с которой вы работали.
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/7a6037fe-de2a-43b4-ab73-94cedcd75333)
 
-![image](https://user-images.githubusercontent.com/5323690/236675019-ae1e247b-41de-40a3-83fd-85eb8b03336c.png)
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/5c0b1252-b980-4626-b8d4-fabaf757e6d9)
+
 
