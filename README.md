@@ -43,10 +43,17 @@ do
 		date >> curl.log
 	fi
 done
-Ваш скрипт:
-???
 
-![image](https://user-images.githubusercontent.com/5323690/236673968-4c6f8bd4-e3bc-43d4-859e-3cd23005f4e9.png)
+Ваш скрипт:
+
+в скрипте синтаксическая ошибка - закрывающая скобка в начале
+
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/a959b6a6-defa-47cf-9af6-29e2dfd6d9cc)
+
+Отсутствие условие выхода из цикла 
+
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/68a7f783-91e5-4d05-a4ff-aad6ed1c0a9c)
+
 
 
 
