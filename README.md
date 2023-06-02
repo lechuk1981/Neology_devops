@@ -63,6 +63,9 @@ done
 
 ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/55fa2a25-d619-443b-844d-8dffc2e85411)
 
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/8dbcdb63-5873-471e-8b4e-722375b779d5)
+
+
 
 ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/59f0a7c1-1b2f-456a-9fc3-c1ea5a5130c9)
 
