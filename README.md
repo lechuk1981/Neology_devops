@@ -21,15 +21,53 @@ c = a + b
 
 <img width="168" alt="image" src="https://github.com/lechuk1981/Netology_devops/assets/5323690/0fc83380-bdf2-4c28-b588-5394f529d448">
 
-Как получить для переменной c значение 3? Объявить переменную как целое число и сложить обе переменные
+Как получить для переменной c значение 3? Объявить переменную b как целое число и сложить обе переменные
 
 <img width="141" alt="image" src="https://github.com/lechuk1981/Netology_devops/assets/5323690/df0abc4a-cdf9-4b0d-882f-3af1706028ec">
 
 
 
 
-### 2. 
+### 2. Задание 2
 
-![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/5c0b1252-b980-4626-b8d4-fabaf757e6d9)
+Как можно доработать скрипт ниже, чтобы он исполнял требования вашего руководителя?
+
+#!/usr/bin/env python3
+
+import os
+
+bash_command = ["cd ~/netology/sysadm-homeworks", "git status"]
+result_os = os.popen(' && '.join(bash_command)).read()
+is_change = False
+for result in result_os.split('\n'):
+    if result.find('modified') != -1:
+        prepare_result = result.replace('\tmodified:   ', '')
+        print(prepare_result)
+        break
+
+мой скрипт:
+
+import os
+
+#bash_command = ["cd ~/netology/sysadm-homeworks", "git status"]
+bash_command = ["cd ~/_Git/devops-netology", "git status"]
+result_os = os.popen(' && '.join(bash_command)).read()
+is_change = False
+for result in result_os.split('\n'):
+    if result.find('modified') != -1:
+        prepare_result = result.replace('\tmodified:   ', '')
+        print(prepare_result)
+    else:
+        break
+
+Добавил else так как  break выполняется после первого удачного выполненного условия
+Про путь не совсем понял что нужно поменять.
+
+поменял путь к моей директории 
+
+вывод в терминале 
+
+<img width="855" alt="image" src="https://github.com/lechuk1981/Netology_devops/assets/5323690/8a99f183-c8fd-4886-bf76-da705d76e75e">
+
 
 
