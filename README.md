@@ -47,18 +47,8 @@ for result in result_os.split('\n'):
 
 мой скрипт:
 
-import os
+<img width="592" alt="image" src="https://github.com/lechuk1981/Netology_devops/assets/5323690/9f89a281-d655-4c04-ad54-f61a0e6080d2">
 
-#bash_command = ["cd ~/netology/sysadm-homeworks", "git status"]
-bash_command = ["cd ~/_Git/devops-netology", "git status"]
-result_os = os.popen(' && '.join(bash_command)).read()
-is_change = False
-for result in result_os.split('\n'):
-    if result.find('modified') != -1:
-        prepare_result = result.replace('\tmodified:   ', '')
-        print(prepare_result)
-    else:
-        break
 
 Добавил else так как  break выполняется после первого удачного выполненного условия
 Про путь не совсем понял что нужно поменять.
