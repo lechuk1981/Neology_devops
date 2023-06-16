@@ -17,9 +17,9 @@ c = a + b
 
 <img width="471" alt="image" src="https://github.com/lechuk1981/Netology_devops/assets/5323690/97275ec8-3fcb-425c-8f29-c299936fbf18">
 
-Как получить для переменной c значение 12? Объявить переменную а как строку 
+Как получить для переменной c значение 12? 
 
-<img width="168" alt="image" src="https://github.com/lechuk1981/Netology_devops/assets/5323690/0fc83380-bdf2-4c28-b588-5394f529d448">
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/787c9382-a54b-4dc2-9b32-f355835b2224)
 
 Как получить для переменной c значение 3? Объявить переменную b как целое число и сложить обе переменные
 
