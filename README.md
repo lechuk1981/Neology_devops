@@ -59,6 +59,9 @@ for result in result_os.split('\n'):
 
 <img width="855" alt="image" src="https://github.com/lechuk1981/Netology_devops/assets/5323690/8a99f183-c8fd-4886-bf76-da705d76e75e">
 
+###  Задание 3
+
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/ed062b2d-8898-460f-be3e-2a3a3777e615)
 
 
 
