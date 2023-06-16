@@ -38,9 +38,9 @@ c = a + b
 
 | Вопрос  | Ответ |
 | ------------- | ------------- |
-| Какое значение будет присвоено переменной `c`?  | ???  |
-| Как получить для переменной `c` значение 12?  | ???  |
-| Как получить для переменной `c` значение 3?  | ???  |
+| Какое значение будет присвоено переменной `c`?  | будет ошибка  |
+| Как получить для переменной `c` значение 12?  | c = (str)a+b  |
+| Как получить для переменной `c` значение 3?  | c = a + (int)b  |
 
 ------
 
@@ -66,9 +66,19 @@ for result in result_os.split('\n'):
 ```
 
 ### Ваш скрипт:
-
 ```python
-???
+
+import os
+
+bash_command = ["cd C:\Users\asopov\git\Netology_devops", "git status"]
+result_os = os.popen(' && '.join(bash_command)).read()
+#is_change = False
+for result in result_os.split('\n'):
+    if result.find('modified') != -1:
+        prepare_result = result.replace('\tmodified:   ', '')
+        print(prepare_result)
+    else:
+    break
 ```
 
 ### Вывод скрипта при запуске во время тестирования:
@@ -114,7 +124,41 @@ for result in result_os.split('\n'):
 ### Ваш скрипт:
 
 ```python
-???
+import os
+import socket
+import json
+path = "./hosts.json"
+data = {}
+
+hosts = ('drive.google.com','mail.google.com','google.com')
+new_hosts = {}
+for host in hosts:
+    new_hosts[host] = socket.gethostbyname(host)
+
+if os.path.isfile(path): # Если файла со списком хостов нет, то создаем
+    with open (path) as f:
+        saved_hosts = json.load(f)
+        if saved_hosts == new_hosts:
+            print('ничего не изменилось')
+        else:
+            print('ip адрес поменялся')
+            for item in saved_hosts.keys():
+                     if new_hosts[item] != saved_hosts[item]:
+                        print('Внимание, ip адрес поменялся ',item, saved_hosts[item], 'заменен на', new_hosts[item])
+
+
+            with open(path, "w") as f:
+                json.dump(new_hosts, f)
+else:
+    with open(path, "w") as f:
+        json.dump(new_hosts, f)
+    print('создан')
+
+# hosts_json = json.dumps(new_hosts)
+
+print(saved_hosts)
+print(new_hosts)
+
 ```
 
 ### Вывод скрипта при запуске во время тестирования:
