@@ -164,7 +164,13 @@ print(new_hosts)
 ### Вывод скрипта при запуске во время тестирования:
 
 ```
-???
+C:\Users\asopov\PycharmProjects\netology\venv\Scripts\python.exe C:\Users\asopov\PycharmProjects\pythonProject8\main.py 
+ip адрес поменялся
+Внимание, ip адрес поменялся  drive.google.com 108.177.14.194 заменен на 64.233.161.194
+Внимание, ip адрес поменялся  mail.google.com 216.58.211.5 заменен на 173.194.73.19
+Внимание, ip адрес поменялся  google.com 64.233.161.102 заменен на 173.194.73.138
+{'drive.google.com': '108.177.14.194', 'mail.google.com': '216.58.211.5', 'google.com': '64.233.161.102'}
+{'drive.google.com': '64.233.161.194', 'mail.google.com': '173.194.73.19', 'google.com': '173.194.73.138'}
 ```
 
 ------
