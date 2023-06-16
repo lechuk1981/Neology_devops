@@ -21,9 +21,10 @@ c = a + b
 
 ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/787c9382-a54b-4dc2-9b32-f355835b2224)
 
-Как получить для переменной c значение 3? Объявить переменную b как целое число и сложить обе переменные
+Как получить для переменной c значение 3?
 
-<img width="141" alt="image" src="https://github.com/lechuk1981/Netology_devops/assets/5323690/df0abc4a-cdf9-4b0d-882f-3af1706028ec">
+    ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/fbfe9fb0-1eb5-4bec-bfba-9e26259e3c2c)
+
 
 
 
