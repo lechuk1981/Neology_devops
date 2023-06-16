@@ -61,7 +61,10 @@ for result in result_os.split('\n'):
 
 ###  Задание 3
 
+Пример с аргументом
 ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/ed062b2d-8898-460f-be3e-2a3a3777e615)
 
+Вывод 
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/207cc707-6725-49b9-b4c6-5fdf3dc065b2)
 
 
