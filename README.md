@@ -68,4 +68,16 @@ for result in result_os.split('\n'):
 Вывод 
 ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/207cc707-6725-49b9-b4c6-5fdf3dc065b2)
 
+###  Задание 4
+
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/327238ee-0543-4fc6-b27e-19073edee130)
+
+когда адреса не помекнялись
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/f8b95237-10a3-427c-ba8c-b2465430f062)
+
+когда некоторые изменились
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/1bfb8764-66af-40b7-936e-3433797d80e2)
+
+
+
 
