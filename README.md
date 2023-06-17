@@ -101,35 +101,27 @@ Process finished with exit code 0
 import os
 import sys
 
+
 path = sys.argv[1]
+# path = '/Users/andreysopov/_Git/Netology_devops'
 os.chdir(path)
 bash_command = ['git status']
-results = os.popen('&&' .join(bash_command)).read()
-print(results)
-
-for result in results.split('\n'):
+result_os = os.popen(' && '.join(bash_command)).read()
+# is_change = False
+for result in result_os.split('\n'):
     if result.find('modified') != -1:
-        print(path+result)
-    else:
-        break
+        prepare_result = result.replace('\tmodified:   ', '')
+        print(path+' файл '+prepare_result)
+
 ```
 
 ### Вывод скрипта при запуске во время тестирования:
 
 ```
-andreysopov@MacBook-Air-Andrey netology % python3 hw.py /Users/andreysopov/_Develop/Capture/CreatingAPhotogrammetryCommandLineApp
-On branch main
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   HelloPhotogrammetry.xcodeproj/project.pbxproj
-	modified:   HelloPhotogrammetry/main.swift
+(netology) andreysopov@MacBook-Air-Andrey netology % python3 hw.py /Users/andreysopov/_Git/Netology_devops
+/Users/andreysopov/_Git/Netology_devops файл new.md
 
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	HelloPhotogrammetry.xcodeproj/xcshareddata/
 
-no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
 ------
