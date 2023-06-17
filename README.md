@@ -70,23 +70,21 @@ for result in result_os.split('\n'):
 
 import os
 
-bash_command = ["cd ~/_Git/devops-netology", "git status"]
+bash_command = ["cd /Users/andreysopov/_Git/Netology_devops", "git status"]
 result_os = os.popen(' && '.join(bash_command)).read()
 
 for result in result_os.split('\n'):
     if result.find('modified') != -1:
         prepare_result = result.replace('\tmodified:   ', '')
         print(prepare_result)
-    else:
-        break
 ```
 
 ### Вывод скрипта при запуске во время тестирования:
 
 ```
 /Users/andreysopov/Учеба/netology/bin/Python /Users/andreysopov/Учеба/Python/netology/hw.py
+new.md
 
-Process finished with exit code 0
 ```
 
 ------
