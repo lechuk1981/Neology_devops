@@ -77,25 +77,72 @@
 ### Ваш скрипт:
 
 ```python
-???
+import os
+import socket
+import json
+import yaml
+
+path = "./hosts.json"
+data = {}
+
+hosts = ('drive.google.com','mail.google.com','google.com')
+new_hosts = {}
+for host in hosts:
+    new_hosts[host] = socket.gethostbyname(host)
+
+if os.path.isfile(path): # Если файла со списком хостов нет, то создаем
+    with open (path) as f:
+        saved_hosts = json.load(f)
+        if saved_hosts == new_hosts:
+            print('ничего не изменилось')
+        else:
+            print('ip адрес поменялся')
+            for item in saved_hosts.keys():
+                     if new_hosts[item] != saved_hosts[item]:
+                        print('Внимание, ip адрес поменялся ',item, saved_hosts[item], 'заменен на', new_hosts[item])
+
+
+            with open(path, "w") as f:
+                json.dump(new_hosts, f)
+else:
+    with open(path, "w") as f:
+        json.dump(new_hosts, f)
+    print('создан')
+
+with open('hosts.yml', 'w') as ym:
+    ym.write(yaml.dump(new_hosts))
+
+# hosts_json = json.dumps(new_hosts)
+
+print(saved_hosts)
+print(new_hosts)
 ```
 
 ### Вывод скрипта при запуске во время тестирования:
 
 ```
-???
+C:\Users\asopov\PycharmProjects\netology\pythonProject9\Scripts\python.exe C:\Users\asopov\PycharmProjects\pythonProject8\netology_hw.py 
+ничего не изменилось
+{'drive.google.com': '64.233.162.194', 'mail.google.com': '142.250.74.37', 'google.com': '173.194.73.102'}
+{'drive.google.com': '64.233.162.194', 'mail.google.com': '142.250.74.37', 'google.com': '173.194.73.102'}
+
+Process finished with exit code 0
+
 ```
 
 ### JSON-файл(ы), который(е) записал ваш скрипт:
 
 ```json
-???
+{"drive.google.com": "64.233.162.194", "mail.google.com": "142.250.74.37", "google.com": "173.194.73.102"}
 ```
 
 ### YAML-файл(ы), который(е) записал ваш скрипт:
 
 ```yaml
-???
+drive.google.com: 64.233.162.194
+google.com: 173.194.73.102
+mail.google.com: 142.250.74.37
+
 ```
 
 ---
