@@ -29,10 +29,20 @@
   Latest Version: 2.3.7
   
 - [Terraform](https://github.com/netology-code/devops-materials/blob/master/README.md),
+
+  
 - Ansible.
 ````
-vagrant@vagrant:~$ ansible --version
-ansible 2.9.6
+ansible [core 2.12.10]
+  config file = /etc/ansible/ansible.cfg
+  configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/local/lib/python3.9/dist-packages/ansible
+  ansible collection location = /root/.ansible/collections:/usr/share/ansible/collections
+  executable location = /usr/local/bin/ansible
+  python version = 3.9.2 (default, Feb 28 2021, 17:03:44) [GCC 10.2.1 20210110]
+  jinja version = 2.11.3
+  libyaml = True
+
 ````
 
 *Приложите вывод команд установленных версий каждой из программ, оформленный в Markdown.*
