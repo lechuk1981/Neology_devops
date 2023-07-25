@@ -17,8 +17,7 @@
 Установите на личный компьютер:
 
 - [VirtualBox](https://www.virtualbox.org/),
-
-  ```
+    ```
   C:\Program Files\Oracle\VirtualBox>VBoxManage.exe --version
   7.0.10r158379
   
@@ -34,7 +33,6 @@ root@v1645442:~# terraform --version
 Terraform v1.5.3
 on linux_amd64
 
-  
 - Ansible.
 ````
 ansible [core 2.12.10]
@@ -47,7 +45,7 @@ ansible [core 2.12.10]
   jinja version = 2.11.3
   libyaml = True
 
-````
+
 
 *Приложите вывод команд установленных версий каждой из программ, оформленный в Markdown.*
 
