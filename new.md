@@ -54,7 +54,7 @@ ansible [core 2.12.10]
   python version = 3.9.2 (default, Feb 28 2021, 17:03:44) [GCC 10.2.1 20210110]
   jinja version = 2.11.3
   libyaml = True
-
+````
 
 
 *Приложите вывод команд установленных версий каждой из программ, оформленный в Markdown.*
