@@ -28,10 +28,10 @@
   Latest Version: 2.3.7
   
 - [Terraform](https://github.com/netology-code/devops-materials/blob/master/README.md),
-````
-root@v1645442:~# terraform --version
-Terraform v1.5.3
-on linux_amd64
+  ````
+  root@v1645442:~# terraform --version
+  Terraform v1.5.3
+  on linux_amd64
 
 - Ansible.
 ````
