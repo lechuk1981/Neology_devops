@@ -30,6 +30,10 @@
   
 - [Terraform](https://github.com/netology-code/devops-materials/blob/master/README.md),
 - Ansible.
+````
+vagrant@vagrant:~$ ansible --version
+ansible 2.9.6
+````
 
 *Приложите вывод команд установленных версий каждой из программ, оформленный в Markdown.*
 
