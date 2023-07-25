@@ -17,10 +17,11 @@
 Установите на личный компьютер:
 
 - [VirtualBox](https://www.virtualbox.org/),
+
   ```
-C:\Program Files\Oracle\VirtualBox>VBoxManage.exe --version
-7.0.10r158379
-```
+  C:\Program Files\Oracle\VirtualBox>VBoxManage.exe --version
+  7.0.10r158379
+
   
 - [Vagrant](https://github.com/netology-code/devops-materials),
 - [Terraform](https://github.com/netology-code/devops-materials/blob/master/README.md),
