@@ -21,9 +21,13 @@
   ```
   C:\Program Files\Oracle\VirtualBox>VBoxManage.exe --version
   7.0.10r158379
-
   
 - [Vagrant](https://github.com/netology-code/devops-materials),
+  ```
+  C:\Users\asopov>vagrant version
+  Installed Version: 2.3.7
+  Latest Version: 2.3.7
+  
 - [Terraform](https://github.com/netology-code/devops-materials/blob/master/README.md),
 - Ansible.
 
