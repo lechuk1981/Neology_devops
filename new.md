@@ -89,42 +89,39 @@ Docker, есть образы, проще масштабировать в буд
 - Подключитесь во второй контейнер и отобразите листинг и содержание файлов в ```/data``` контейнера.
 
 ```
-vagrant@server1:~$ docker run -it --rm -d --name centos -v $(pwd)/data:/data centos:latest
+root@zabbix:/tmp/docker# docker run -v /data:/data --name centos-container -d -t centos
 Unable to find image 'centos:latest' locally
 latest: Pulling from library/centos
-52f9ef134af7: Pull complete
+a1d0c7532777: Pull complete
 Digest: sha256:a27fd8080b517143cbbbab9dfb7c8571c40d67d534bbdee55bd6c473f432b177
 Status: Downloaded newer image for centos:latest
-644cbde6aba33ce6aa8e1d2ce579ce411fd58b7974fc6f8b6f5acb0a5c1236d4
+156204753f1df701891d24f2624673c23a1a39575f35b353457104cc102a51d4
 
-vagrant@server1:~$ docker run -it --rm -d --name debian -v $(pwd)/data:/data debian:latest
+
+root@zabbix:/tmp/docker# docker run -v /data:/data --name debian-container -d -t debian
 Unable to find image 'debian:latest' locally
 latest: Pulling from library/debian
-94a23d3cb5be: Pull complete
-Digest: sha256:2906804d2a64e8a13a434a1a127fe3f6a28bf7cf3696be4223b06276f32f1f2d
+167b8a53ca45: Pull complete
+Digest: sha256:eaace54a93d7b69c7c52bb8ddf9b3fcba0c106a497bc1fdbb89a6299cf945c63
 Status: Downloaded newer image for debian:latest
-2b1f3290f6dc56f98f4546f4fccf73267a0baab1e382625f0955cffba40a9916
+
 ```
 ```
-vagrant@server1:~$ docker exec -it centos bash
-[root@644cbde6aba3 /]# echo "This file is written to docker CentOS" >> /data/centos.txt
-[root@644cbde6aba3 /]# exit
-exit
+root@zabbix:/tmp/docker# docker ps
+CONTAINER ID   IMAGE                     COMMAND                  CREATED          STATUS          PORTS                  NAMES
+6d6ccb51f81e   centos                    "/bin/bash"              43 seconds ago   Up 41 seconds                          debian-container
+156204753f1d   centos                    "/bin/bash"              8 minutes ago    Up 8 minutes                           centos-container
+144040f079e0   lechuk1981/nginx-devops   "/docker-entrypoint.…"   47 minutes ago   Up 47 minutes   0.0.0.0:8082->80/tcp   web
+
 ```
 ```
-vagrant@server1:~$ sudo su
-root@server1:/home/vagrant# echo "This file is written to host" >> data/host.txt
+ docker exec centos-container /bin/bash -c "echo test>/data/test.cfg"
+/tmp/docker# echo test2 > /data/test2.cfg
+
 ```
 ```
-vagrant@server1:~$ docker exec -it debian bash
-root@2b1f3290f6dc:/# ls data/
-centos.txt  host.txt
+root@228799ebc305:/data# ls
+test.cfg  test2.cfg
+
 ```
 
-#### Задача 4 (*)
-
-Воспроизвести практическую часть лекции самостоятельно.
-
-Соберите Docker образ с Ansible, загрузите на Docker Hub и пришлите ссылку вместе с остальными ответами к задачам.
-
-https://hub.docker.com/repository/docker/podkovka/devops-ansible
