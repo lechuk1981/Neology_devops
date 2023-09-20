@@ -1,90 +1,127 @@
 
-# Домашнее задание к занятию 2. «Применение принципов IaaC в работе с виртуальными машинами»
+### Домашнее задание к занятию "5.3. Введение. Экосистема. Архитектура. Жизненный цикл Docker контейнера"
 
+#### Задача 1
 
-## Задача 1
+Сценарий выполнения задачи:
 
-- Опишите основные преимущества применения на практике IaaC-паттернов.
-- Какой из принципов IaaC является основополагающим?
-  
-## Ответ 1:
+- создайте свой репозиторий на https://hub.docker.com;
+- выберете любой образ, который содержит веб-сервер Nginx;
+- создайте свой fork образа;
+- реализуйте функциональность:
+запуск веб-сервера в фоне с индекс-страницей, содержащей HTML-код ниже:
+```
+<html>
+<head>
+Hey, Netology
+</head>
+<body>
+<h1>I’m DevOps Engineer!</h1>
+</body>
+</html>
+```
+Опубликуйте созданный форк в своем репозитории и предоставьте ответ в виде ссылки на https://hub.docker.com/username_repo.
 
-- Скорость развертывания инфраструктуры, позволяет уменьшить общее время производства продукта.
-- Основополагающим принципом IaaC является идемпотентность - это операция, которая при многократном вызове возвращает один и тот же результат.
-  
-## Задача 2
-
-- Чем Ansible выгодно отличается от других систем управление конфигурациями?
-- Какой, на ваш взгляд, метод работы систем конфигурации более надёжный — push или pull?
-
-## Ответ 2:
-
-- Ansible отличается простотой использования, не требует установки агентов.
-- Все зависит от задач, мне кажется метод Push более надёжен т.к. есть контроль конфигурации и отправки ее корректному хосту
-
-## Задача 3
-
-Установите на личный компьютер:
-
-- [VirtualBox](https://www.virtualbox.org/),
-    ```
-  C:\Program Files\Oracle\VirtualBox>VBoxManage.exe --version
-  7.0.10r158379
-  
-- [Vagrant](https://github.com/netology-code/devops-materials),
-  ```
-  C:\Users\asopov>vagrant version
-  Installed Version: 2.3.7
-  Latest Version: 2.3.7
-  
-- [Terraform](https://github.com/netology-code/devops-materials/blob/master/README.md),
-  ````
-  root@v1645442:~# terraform --version
-  Terraform v1.5.3
-  on linux_amd64
-
-- Ansible.
-````
-ansible [core 2.12.10]
-  config file = /etc/ansible/ansible.cfg
-  configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
-  ansible python module location = /usr/local/lib/python3.9/dist-packages/ansible
-  ansible collection location = /root/.ansible/collections:/usr/share/ansible/collections
-  executable location = /usr/local/bin/ansible
-  python version = 3.9.2 (default, Feb 28 2021, 17:03:44) [GCC 10.2.1 20210110]
-  jinja version = 2.11.3
-  libyaml = True
-````
-
-
-*Приложите вывод команд установленных версий каждой из программ, оформленный в Markdown.*
-
-## Задача 4 
-
-Воспроизведите практическую часть лекции самостоятельно.
-
-- Создайте виртуальную машину.
-- Зайдите внутрь ВМ, убедитесь, что Docker установлен с помощью команды
+#### Созданный форк [https://hub.docker.com/r/lechuk1981/nginx-devops](https://hub.docker.com/layers/lechuk1981/nginx-devops/latest/images/sha256-ced759fb405d7017e14475766758e6eaa2437feb67c5d94b947e4e44831237df?context=explore)
 
 ```
-root@v1645442:~# docker ps
-CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+root@zabbix:/tmp/docker# docker run --rm -d --name web -p 8082:80 lechuk1981/nginx-devops
+144040f079e03dce497503e46b975de562c3ef34ccd09945b2777e80f39d0902
+root@zabbix:/tmp/docker# curl 127.0.0.1:8082
+<html><head>Hey, Netology</head><body><h1>I am DevOps Engineer!</h1></body></html>
+root@zabbix:/tmp/docker#
 
 ```
 
 
+#### Задача 2
 
-Vagrantfile из лекции и код ansible находятся в [папке](https://github.com/netology-code/virt-homeworks/tree/virt-11/05-virt-02-iaac/src).
+Посмотрите на сценарий ниже и ответьте на вопрос:
+"Подходит ли в этом сценарии использование Docker контейнеров или лучше подойдет виртуальная машина, физическая машина? Может быть возможны разные варианты?"
 
-Примечание. Если Vagrant выдаёт ошибку:
+Детально опишите и обоснуйте свой выбор.
+
+--
+
+Сценарий:
+
+- Высоконагруженное монолитное java веб-приложение;
 ```
-URL: ["https://vagrantcloud.com/bento/ubuntu-20.04"]     
-Error: The requested URL returned error: 404:
+Физический сервер или аппаратная виртуализация, т.к. монолитное и нет неоходимости в микросервисах. Высоконагруженное как раз будет использовать максимум ресурсов.
+```
+- Nodejs веб-приложение;
+```
+Docker, есть официальные сборки этой веб-платформы
+```
+- Мобильное приложение c версиями для Android и iOS;
+```
+Виртуальные машины. Так как мобильное приложение может испльзовать один и тот же сетевой интерфейс, средства аутентификации и пр.
+```
+- Шина данных на базе Apache Kafka;
+```
+Можно использовать Docker, есть уже готовые образы, а так же простота раскатки или отката версий 
+```
+- Elasticsearch кластер для реализации логирования продуктивного веб-приложения - три ноды elasticsearch, два logstash и
+две ноды kibana;
+```
+Предпочтительней на VM, отказоустойчивость решается на уровне кластера
+```
+- Мониторинг-стек на базе Prometheus и Grafana;
+```
+Docker, есть образы, проще масштабировать в будущем.
+```
+- MongoDB, как основное хранилище данных для java-приложения;
+```
+Отдельный виртуальный или физический сервер
+```
+- Gitlab сервер для реализации CI/CD процессов и приватный (закрытый) Docker Registry.
+```
+Подойдет Docker так как необходима изоляция
 ```
 
-выполните следующие действия:
+#### Задача 3
 
-1. Скачайте с [сайта](https://app.vagrantup.com/bento/boxes/ubuntu-20.04) файл-образ "bento/ubuntu-20.04".
-2. Добавьте его в список образов Vagrant: "vagrant box add bento/ubuntu-20.04 <путь к файлу>".
+- Запустите первый контейнер из образа ***centos*** c любым тэгом в фоновом режиме, подключив папку ```/data``` из текущей рабочей директории на хостовой машине в ```/data``` контейнера;
+- Запустите второй контейнер из образа ***debian*** в фоновом режиме, подключив папку ```/data``` из текущей рабочей директории на хостовой машине в ```/data``` контейнера;
+- Подключитесь к первому контейнеру с помощью ```docker exec``` и создайте текстовый файл любого содержания в ```/data```;
+- Добавьте еще один файл в папку ```/data``` на хостовой машине;
+- Подключитесь во второй контейнер и отобразите листинг и содержание файлов в ```/data``` контейнера.
 
-*Приложите скриншоты в качестве решения на эту задачу.*
+```
+root@zabbix:/tmp/docker# docker run -v /data:/data --name centos-container -d -t centos
+Unable to find image 'centos:latest' locally
+latest: Pulling from library/centos
+a1d0c7532777: Pull complete
+Digest: sha256:a27fd8080b517143cbbbab9dfb7c8571c40d67d534bbdee55bd6c473f432b177
+Status: Downloaded newer image for centos:latest
+156204753f1df701891d24f2624673c23a1a39575f35b353457104cc102a51d4
+
+
+root@zabbix:/tmp/docker# docker run -v /data:/data --name debian-container -d -t debian
+Unable to find image 'debian:latest' locally
+latest: Pulling from library/debian
+167b8a53ca45: Pull complete
+Digest: sha256:eaace54a93d7b69c7c52bb8ddf9b3fcba0c106a497bc1fdbb89a6299cf945c63
+Status: Downloaded newer image for debian:latest
+
+```
+```
+root@zabbix:/tmp/docker# docker ps
+CONTAINER ID   IMAGE                     COMMAND                  CREATED          STATUS          PORTS                  NAMES
+6d6ccb51f81e   centos                    "/bin/bash"              43 seconds ago   Up 41 seconds                          debian-container
+156204753f1d   centos                    "/bin/bash"              8 minutes ago    Up 8 minutes                           centos-container
+144040f079e0   lechuk1981/nginx-devops   "/docker-entrypoint.…"   47 minutes ago   Up 47 minutes   0.0.0.0:8082->80/tcp   web
+
+```
+```
+ docker exec centos-container /bin/bash -c "echo test>/data/test.cfg"
+/tmp/docker# echo test2 > /data/test2.cfg
+
+```
+```
+root@228799ebc305:/data# ls
+test.cfg  test2.cfg
+
+```
+
