@@ -22,6 +22,8 @@ Hey, Netology
 ```
 Опубликуйте созданный форк в своем репозитории и предоставьте ответ в виде ссылки на https://hub.docker.com/username_repo.
 
+Созданный форк https://hub.docker.com/r/lechuk1981/nginx-devops
+
 ```
 vagrant@server1:~$ docker ps
 CONTAINER ID   IMAGE                   COMMAND                  CREATED          STATUS          PORTS     NAMES
