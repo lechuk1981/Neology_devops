@@ -25,22 +25,13 @@ Hey, Netology
 #### Созданный форк [https://hub.docker.com/r/lechuk1981/nginx-devops](https://hub.docker.com/layers/lechuk1981/nginx-devops/latest/images/sha256-ced759fb405d7017e14475766758e6eaa2437feb67c5d94b947e4e44831237df?context=explore)
 
 ```
-vagrant@server1:~$ docker ps
-CONTAINER ID   IMAGE                   COMMAND                  CREATED          STATUS          PORTS     NAMES
-cf12c79c6f15   podkovka/devops-nginx   "/docker-entrypoint.…"   13 seconds ago   Up 12 seconds   80/tcp    musing_cannon
-vagrant@server1:~$ curl 172.17.0.2
-<!DOCTYPE html>
-<html>
-	<head>
-		Hey, Netology
-	</head>
-	<body>
-		<h1>I’m DevOps Engineer!</h1>
-	</body>
-</html>
-```
 
-https://hub.docker.com/repository/docker/podkovka/devops-nginx
+root@zabbix:/tmp/docker# docker run --rm -d --name web -p 8082:80 lechuk1981/nginx-devops
+144040f079e03dce497503e46b975de562c3ef34ccd09945b2777e80f39d0902
+root@zabbix:/tmp/docker# curl 127.0.0.1:8082
+<html><head>Hey, Netology</head><body><h1>I am DevOps Engineer!</h1></body></html>
+root@zabbix:/tmp/docker#
+
 
 
 #### Задача 2
