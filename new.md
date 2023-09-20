@@ -32,6 +32,7 @@ root@zabbix:/tmp/docker# curl 127.0.0.1:8082
 <html><head>Hey, Netology</head><body><h1>I am DevOps Engineer!</h1></body></html>
 root@zabbix:/tmp/docker#
 
+```
 
 
 #### Задача 2
