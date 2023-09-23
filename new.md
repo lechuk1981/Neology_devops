@@ -14,7 +14,7 @@
 
 С помощью Ansible и Docker Compose разверните на виртуальной машине из предыдущего задания систему мониторинга на основе Prometheus/Grafana.
 
-,,,
+...
 
 medved@devops:~$ sudo docker ps
 CONTAINER ID   IMAGE                              COMMAND                  CREATED              STATUS                          PORTS      NAMES
@@ -26,4 +26,4 @@ a37975af8f97   stefanprodan/caddy                 "/sbin/tini -- caddy…"   Abo
 ee0066963076   prom/prometheus:v2.17.1            "/bin/prometheus --c…"   About a minute ago   Restarting (1) 41 seconds ago              prometheus
 4039d028661b   prom/pushgateway:v1.2.0            "/bin/pushgateway"       About a minute ago   Up About a minute               9091/tcp   pushgateway
 
-,,,
+...
