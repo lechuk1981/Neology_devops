@@ -14,5 +14,11 @@
 
 С помощью Ansible и Docker Compose разверните на виртуальной машине из предыдущего задания систему мониторинга на основе Prometheus/Grafana.
 
-![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/7c921d2c-7867-4f91-ab8c-d300dd2a5ac7)
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/ca45fc9e-f172-4b09-bddb-89f51b427464)
+
+никак не может стартануть caddy . Замучался с ним
+
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/6cdf0c7a-ef0d-4dae-8ef2-4b474251fd19)
+
+
 
