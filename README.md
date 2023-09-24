@@ -17,9 +17,10 @@
 ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/ca45fc9e-f172-4b09-bddb-89f51b427464)
 
 
-никак не может стартануть caddy . Замучался с ним
+## Задача 4
 
-![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/6cdf0c7a-ef0d-4dae-8ef2-4b474251fd19)
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/e4a8c220-c041-487e-99dc-aad7bece7c3f)
+
 
 
 
