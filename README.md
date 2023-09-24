@@ -14,7 +14,8 @@
 
 С помощью Ansible и Docker Compose разверните на виртуальной машине из предыдущего задания систему мониторинга на основе Prometheus/Grafana.
 
-![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/ca45fc9e-f172-4b09-bddb-89f51b427464)
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/d3cdf4b0-ff73-4715-adb5-43a7489b8a35)
+
 
 
 ## Задача 4
