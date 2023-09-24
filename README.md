@@ -20,6 +20,9 @@
 
 ## Задача 4
 
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/66a327a3-4b76-41e6-967b-a10686939177)
+
+
 ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/e4a8c220-c041-487e-99dc-aad7bece7c3f)
 
 
