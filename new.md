@@ -10,7 +10,8 @@
 
 ## Задача 2
 
-![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/28787b0d-c894-4770-a627-2c55ac76985f)
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/1a72fd6e-1e12-46bc-bf21-82d320c4bab0)
+
 
 
 ## Задача 3
