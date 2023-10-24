@@ -13,38 +13,8 @@
 Приведите получившуюся команду или docker-compose-манифест.
 
 '''
-andreysopov@MacBook-Air-Andrey Docker_pos % docker-compose -f docker-compose.yml up -d
-[+] Running 14/14
- ✔ db 13 layers [⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿]      0B/0B      Pulled                                                                                                                                     24.5s 
-   ✔ 1bc163a14ea6 Pull complete                                                                                                                                                             8.7s 
-   ✔ fe7eaee44872 Pull complete                                                                                                                                                             0.6s 
-   ✔ e13ff0d3a049 Pull complete                                                                                                                                                             2.3s 
-   ✔ 4d16fa05eefe Pull complete                                                                                                                                                             2.0s 
-   ✔ d86be5429105 Pull complete                                                                                                                                                             4.4s 
-   ✔ 8b9908c218b1 Pull complete                                                                                                                                                             3.4s 
-   ✔ 07683d534ecb Pull complete                                                                                                                                                             4.1s 
-   ✔ 3c5194879a02 Pull complete                                                                                                                                                             4.7s 
-   ✔ 4ebf740ac389 Pull complete                                                                                                                                                            20.0s 
-   ✔ 0640065a7f73 Pull complete                                                                                                                                                             5.6s 
-   ✔ 0c9e0a841cb0 Pull complete                                                                                                                                                             6.2s 
-   ✔ a076c6e0becb Pull complete                                                                                                                                                             7.0s 
-   ✔ e65b20fc762c Pull complete                                                                                                                                                             7.6s 
-[+] Building 0.0s (0/0)                                                                                                                                                     docker:desktop-linux
-[+] Running 3/4
- ✔ Network docker_pos_default   Created                                                                                                                                                     0.0s 
- ✔ Volume "docker_pos_data1"    Created                                                                                                                                                     0.0s 
- ✔ Volume "docker_pos_data2"    Created                                                                                                                                                     0.0s 
- ⠙ Container postgres_netology  Creating                                                                                                                                                    0.1s 
-Error response from daemon: invalid mount config for type "volume": invalid mount path: 'data1' mount path must be absolute
-andreysopov@MacBook-Air-Andrey Docker_pos % vi docker-compose.yml 
-andreysopov@MacBook-Air-Andrey Docker_pos % docker-compose -f docker-compose.yml up -d
-[+] Building 0.0s (0/0)                                                                                                                                                     docker:desktop-linux
-[+] Running 1/1
- ✔ Container postgres_netology  Started                                                                                                                                                     0.1s 
-andreysopov@MacBook-Air-Andrey Docker_pos % docker ps
-CONTAINER ID   IMAGE         COMMAND                  CREATED         STATUS         PORTS                     NAMES
-447054ffe87d   postgres:12   "docker-entrypoint.s…"   8 seconds ago   Up 8 seconds   0.0.0.0:54320->5432/tcp   postgres_netology
-andreysopov@MacBook-Air-Andrey Docker_pos % 
+![Uploading image.png…]()
+
 
 '''
 
