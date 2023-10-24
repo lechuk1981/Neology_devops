@@ -12,8 +12,43 @@
 
 Приведите получившуюся команду или docker-compose-манифест.
 
+...
 
-![Uploading image.png…]()
+andreysopov@MacBook-Air-Andrey Docker_pos % docker volume inspect docker_pos_data1
+[
+    {
+        "CreatedAt": "2023-10-24T20:43:32Z",
+        "Driver": "local",
+        "Labels": {
+            "com.docker.compose.project": "docker_pos",
+            "com.docker.compose.version": "2.23.0",
+            "com.docker.compose.volume": "data1"
+        },
+        "Mountpoint": "/var/lib/docker/volumes/docker_pos_data1/_data",
+        "Name": "docker_pos_data1",
+        "Options": null,
+        "Scope": "local"
+    }
+]
+andreysopov@MacBook-Air-Andrey Docker_pos % docker volume inspect docker_pos_data2
+[
+    {
+        "CreatedAt": "2023-10-24T20:43:32Z",
+        "Driver": "local",
+        "Labels": {
+            "com.docker.compose.project": "docker_pos",
+            "com.docker.compose.version": "2.23.0",
+            "com.docker.compose.volume": "data2"
+        },
+        "Mountpoint": "/var/lib/docker/volumes/docker_pos_data2/_data",
+        "Name": "docker_pos_data2",
+        "Options": null,
+        "Scope": "local"
+    }
+]
+andreysopov@MacBook-Air-Andrey Docker_pos % Í
+
+...
 
 
 
