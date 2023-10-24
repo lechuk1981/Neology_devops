@@ -12,7 +12,6 @@
 
 Приведите получившуюся команду или docker-compose-манифест.
 
-,,,
 
 andreysopov@MacBook-Air-Andrey Docker_pos % docker volume inspect docker_pos_data1
 [
@@ -48,7 +47,6 @@ andreysopov@MacBook-Air-Andrey Docker_pos % docker volume inspect docker_pos_dat
 ]
 andreysopov@MacBook-Air-Andrey Docker_pos % Í
 
-,,,
 
 
 
