@@ -157,6 +157,12 @@ select count (*) from clients;
  
 Подсказка: используйте директиву `UPDATE`.
 
+
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/6ce311eb-a1b5-40dc-b88a-eb46dbd6469f)
+
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/46fe7546-df70-4027-baa5-1c716db18eae)
+
+
 ## Задача 5
 
 Получите полную информацию по выполнению запроса выдачи всех пользователей из задачи 4 
