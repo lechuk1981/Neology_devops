@@ -185,7 +185,15 @@ select count (*) from clients;
 
 Создайте бэкап БД test_db и поместите его в volume, предназначенный для бэкапов (см. задачу 1).
 
+```
+root@447054ffe87d:/# pg_dump -U postgres test_db -f /Users/andreysopov/Docker_pos/data1/backup.sql
+```
+
 Остановите контейнер с PostgreSQL, но не удаляйте volumes.
+
+
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/03048507-eac6-406b-afb6-357147b95628)
+
 
 Поднимите новый пустой контейнер с PostgreSQL.
 
@@ -196,15 +204,9 @@ select count (*) from clients;
 
 
 
-
 Восстановите БД test_db в новом контейнере.
 
-Приведите список операций, который вы применяли для бэкапа данных и восстановления. 
 
----
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/d534583f-0adb-4e0e-afce-7399da612ac8)
 
-### Как cдавать задание
 
-Выполненное домашнее задание пришлите ссылкой на .md-файл в вашем репозитории.
-
----
