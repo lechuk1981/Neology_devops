@@ -133,7 +133,8 @@ select count (*) from orders;
 select count (*) from clients;
 ```
     
-![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/76596d47-dd00-4ad3-b234-2461b262aa55)
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/7529d59c-8930-4a82-920e-0b1fb5841688)
+
 
 
 
