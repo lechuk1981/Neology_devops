@@ -57,7 +57,9 @@ andreysopov@MacBook-Air-Andrey Docker_pos % Í
 В БД из задачи 1: 
 
 - создайте пользователя test-admin-user и БД test_db;
+
 - в БД test_db создайте таблицу orders и clients (спeцификация таблиц ниже);
+      
 - предоставьте привилегии на все операции пользователю test-admin-user на таблицы БД test_db;
 - создайте пользователя test-simple-user;
 - предоставьте пользователю test-simple-user права на SELECT/INSERT/UPDATE/DELETE этих таблиц БД test_db.
@@ -81,6 +83,9 @@ andreysopov@MacBook-Air-Andrey Docker_pos % Í
 - описание таблиц (describe);
 - SQL-запрос для выдачи списка пользователей с правами над таблицами test_db;
 - список пользователей с правами над таблицами test_db.
+
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/924b43dd-862a-4c55-9c5e-944cefebaadf)
+
 
 ## Задача 3
 
