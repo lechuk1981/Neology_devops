@@ -160,7 +160,8 @@ select count (*) from clients;
 
 ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/6ce311eb-a1b5-40dc-b88a-eb46dbd6469f)
 
-![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/46fe7546-df70-4027-baa5-1c716db18eae)
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/1c11f447-bc3b-4553-896c-f49b455c16e5)
+
 
 
 ## Задача 5
@@ -169,6 +170,16 @@ select count (*) from clients;
 (используя директиву EXPLAIN).
 
 Приведите получившийся результат и объясните, что значат полученные значения.
+
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/aee27bfe-29e2-4228-9ad4-903fb5cdf2ce)
+
+```
+Используется метод Seq Scan — последовательное, блок за блоком, чтение данных таблицы clients
+0.00 затраты на получение первой строки , 18.10 затраты на получение всех строк
+806 - количество возвращаемых строк
+72 - размер строки
+```
+
 
 ## Задача 6
 
