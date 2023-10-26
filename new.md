@@ -189,8 +189,9 @@ select count (*) from clients;
 
 Поднимите новый пустой контейнер с PostgreSQL.
 
+```
 Добавил в docker-compose второй контейнер и сразу примонтировал оба volume
-
+```
 ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/112abf8a-59ad-4ba7-8ea4-1e242921cf96)
 
 
