@@ -189,6 +189,14 @@ select count (*) from clients;
 
 Поднимите новый пустой контейнер с PostgreSQL.
 
+
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/278b3428-8f4f-4b78-b64e-e29154ed9b76)
+
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/be2c65e9-8a7b-41d7-be1e-be13d72ad2d6)
+
+
+
+
 Восстановите БД test_db в новом контейнере.
 
 Приведите список операций, который вы применяли для бэкапа данных и восстановления. 
