@@ -86,11 +86,11 @@ andreysopov@MacBook-Air-Andrey Docker_pos % Í
 
 ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/924b43dd-862a-4c55-9c5e-944cefebaadf)
 
-![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/77631b99-b230-4b8d-8899-64c61161a9e3)
 
-![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/5d400b71-aded-4685-80e7-c0acf8af0b0b)
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/1249c094-e2bc-4f1b-b4b0-953032f227d7)
 
-![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/31a5ba0f-e911-49c8-89a2-ee7b460fdec3)
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/d287f437-9b55-4fb9-8fd8-cab08e79a064)
+
 
 ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/6c56c632-fa72-4895-bc4f-bf9c2e1e16f5)
 
