@@ -16,6 +16,12 @@
 - вывода описания содержимого таблиц,
 - выхода из psql.
 
+  ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/894dad3a-23f5-44b7-8db3-939b51b697a4)
+  ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/3f3d504a-75dd-4e7b-aa4a-5244a5f197fa)
+  ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/f162baca-13c5-40fa-9d42-a754263b4f1f)
+
+
+
 ## Задача 2
 
 Используя `psql`, создайте БД `test_database`.
