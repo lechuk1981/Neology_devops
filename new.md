@@ -29,6 +29,8 @@
 Изучите [бэкап БД](https://github.com/netology-code/virt-homeworks/tree/virt-11/06-db-04-postgresql/test_data).
 
 Восстановите бэкап БД в `test_database`.
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/19725b2a-0542-4914-9eaa-91b2b2bfc802)
+
 
 Перейдите в управляющую консоль `psql` внутри контейнера.
 
@@ -38,6 +40,8 @@
 с наибольшим средним значением размера элементов в байтах.
 
 **Приведите в ответе** команду, которую вы использовали для вычисления, и полученный результат.
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/a6b363c9-b073-4e42-a6dc-240b2dce4e59)
+
 
 ## Задача 3
 
