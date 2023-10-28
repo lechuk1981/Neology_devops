@@ -50,7 +50,8 @@
 провести разбиение таблицы на 2: шардировать на orders_1 - price>499 и orders_2 - price<=499.
 
 Сделал случайно меньше или равно 500
-![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/f7018e46-daab-4ff7-903e-9075d09d6724)
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/7dba78ec-7800-4fa1-b8d0-69ce1be106d4)
+
 
 
 Предложите SQL-транзакцию для проведения этой операции.
