@@ -1,9 +1,5 @@
 # Домашнее задание к занятию 3. «MySQL»
 
-## Введение
-
-Перед выполнением задания вы можете ознакомиться с 
-[дополнительными материалами](https://github.com/netology-code/virt-homeworks/blob/virt-11/additional/README.md).
 
 ## Задача 1
 
@@ -11,6 +7,10 @@
 
 Изучите [бэкап БД](https://github.com/netology-code/virt-homeworks/tree/virt-11/06-db-03-mysql/test_data) и 
 восстановитесь из него.
+
+Развернул при помощи docker-compose
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/fb52a2bb-5ea5-4eb6-9941-76a279ceb13c)
+
 
 Перейдите в управляющую консоль `mysql` внутри контейнера.
 
