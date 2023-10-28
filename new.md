@@ -55,10 +55,16 @@
 Изучите вывод профилирования команд `SHOW PROFILES;`.
 
 Исследуйте, какой `engine` используется в таблице БД `test_db` и **приведите в ответе**.
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/aebb6b1f-6f4b-4ec6-81b4-92c3d938e48c)
+
 
 Измените `engine` и **приведите время выполнения и запрос на изменения из профайлера в ответе**:
 - на `MyISAM`,
+  ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/8b5df57e-8ad1-4085-9198-8b36628bbb75)
+
 - на `InnoDB`.
+  ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/da7b5dff-3469-483b-8112-beadb152c592)
+
 
 ## Задача 4 
 
