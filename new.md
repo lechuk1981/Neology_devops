@@ -46,6 +46,8 @@
     
 Используя таблицу INFORMATION_SCHEMA.USER_ATTRIBUTES, получите данные по пользователю `test` и 
 **приведите в ответе к задаче**.
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/bb8b0686-dcc4-4e86-9b9c-69538d4fea05)
+
 
 ## Задача 3
 
