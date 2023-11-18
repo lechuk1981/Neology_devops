@@ -85,6 +85,10 @@
 ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/38d3f0f5-5b96-4c45-aa9b-7d43748baae9)
 
 14. Объясните, почему при этом не был удалён docker-образ **nginx:latest**. Ответ **обязательно** подкрепите строчкой из документации [**terraform провайдера docker**](https://docs.comcloud.xyz/providers/kreuzwerker/docker/latest/docs).  (ищите в классификаторе resource docker_image )
+     ```
+     У меня образ удалился, в списке только старые
+     ```
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/4df9c8d2-c042-47e8-acd1-f90d9258672c)
 
 
 ------
