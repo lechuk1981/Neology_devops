@@ -68,55 +68,10 @@
    Ошибка Reference to undeclared resource говорит о том, что ресурсы которые мы указываем не декларированы 
    ```
 8. Выполните код. В качестве ответа приложите: исправленный фрагмент кода и вывод команды ```docker ps```.
-   ```
-   terraform {
-  required_providers {
-
-    docker = {
-      source  = "kreuzwerker/docker"
-      version = "~> 3.0.1"
-    }
-    random = {
-      source  = "hashicorp/random"
-      version = "~> 3.1"
-    }
-  }
-  required_version = ">=0.13" /*Многострочный комментарий.
- Требуемая версия terraform */
-}
-provider "docker" {
-   host = "unix:///var/run/docker.sock"
-}
-
-#однострочный комментарий
-
-resource "random_password" "random_string" {
-  length      = 16
-  special     = false
-  min_upper   = 1
-  min_lower   = 1
-  min_numeric = 1
-
-}
+  ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/88a25595-50c9-41af-8352-d8283f41ab24)
 
 
-resource "docker_image" "nginx"{
-  name         = "nginx:latest"
-  keep_locally = true
-}
-
-resource "docker_container" "nginx" {
-  image = docker_image.nginx.image_id
-  name  = "example_${random_password.random_string.result}"
-
-  ports {
-    internal = 80
-    external = 8000
-  }
-}
-   ```
-
-![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/498179c0-566d-4a8c-93cc-1b3cd0052863)
+  ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/498179c0-566d-4a8c-93cc-1b3cd0052863)
 
 10. Замените имя docker-контейнера в блоке кода на ```hello_world```. Не перепутайте имя контейнера и имя образа. Мы всё ещё продолжаем использовать name = "nginx:latest". Выполните команду ```terraform apply -auto-approve```.
 Объясните своими словами, в чём может быть опасность применения ключа  ```-auto-approve```. В качестве ответа дополнительно приложите вывод команды ```docker ps```.
