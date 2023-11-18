@@ -81,18 +81,9 @@
 ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/11268ea1-6b95-416a-9284-4df64011286b)
 
 12. Уничтожьте созданные ресурсы с помощью **terraform**. Убедитесь, что все ресурсы удалены. Приложите содержимое файла **terraform.tfstate**.
-      ```
       
-  "version": 4,
-  "terraform_version": "1.5.7",
-  "serial": 17,
-  "lineage": "0d0f470e-777e-d460-76eb-3f52f0ea8480",
-  "outputs": {},
-  "resources": [],
-  "check_results": null
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/38d3f0f5-5b96-4c45-aa9b-7d43748baae9)
 
-
-      ```
 14. Объясните, почему при этом не был удалён docker-образ **nginx:latest**. Ответ **обязательно** подкрепите строчкой из документации [**terraform провайдера docker**](https://docs.comcloud.xyz/providers/kreuzwerker/docker/latest/docs).  (ищите в классификаторе resource docker_image )
 
 
