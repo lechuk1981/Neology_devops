@@ -95,6 +95,8 @@ https://console.cloud.yandex.ru/folders/<ваш cloud_id>/vpc/security-groups.
 2. Также поступите с блоком **metadata {serial-port-enable, ssh-keys}**, эта переменная должна быть общая для всех ваших ВМ.
 3. Найдите и удалите все более не используемые переменные проекта.
 4. Проверьте terraform plan. Изменений быть не должно.
+      ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/8a10db11-59f1-4ce7-aadc-b416726c4f52)
+
 
 
 ------
