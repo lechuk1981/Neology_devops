@@ -85,6 +85,8 @@ https://console.cloud.yandex.ru/folders/<ваш cloud_id>/vpc/security-groups.
 1. В файле locals.tf опишите в **одном** local-блоке имя каждой ВМ, используйте интерполяцию ${..} с несколькими переменными по примеру из лекции.
 2. Замените переменные с именами ВМ из файла variables.tf на созданные вами local-переменные.
 3. Примените изменения.
+      ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/a1e529e0-d80f-4682-8945-88e6e2000a19)
+
 
 
 ### Задание 6
