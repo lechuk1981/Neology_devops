@@ -66,6 +66,8 @@ https://console.cloud.yandex.ru/folders/<ваш cloud_id>/vpc/security-groups.
 2. Скопируйте блок ресурса и создайте с его помощью вторую ВМ в файле main.tf: **"netology-develop-platform-db"** ,  cores  = 2, memory = 2, core_fraction = 20. Объявите её переменные с префиксом **vm_db_** в том же файле ('vms_platform.tf').
 3. Примените изменения.
 
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/a8f39e30-82ea-4514-b01c-0e15cec16136)
+
 
 ### Задание 4
 
