@@ -75,6 +75,8 @@ https://console.cloud.yandex.ru/folders/<ваш cloud_id>/vpc/security-groups.
 2. Примените изменения.
 
 В качестве решения приложите вывод значений ip-адресов команды ```terraform output```.
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/cdbf0ef4-95ba-41b0-b2d4-dce4d643b50a)
+
 
 
 ### Задание 5
