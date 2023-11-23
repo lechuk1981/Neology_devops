@@ -55,7 +55,9 @@ https://console.cloud.yandex.ru/folders/<ваш cloud_id>/vpc/security-groups.
 1. Изучите файлы проекта.
 2. Замените все хардкод-**значения** для ресурсов **yandex_compute_image** и **yandex_compute_instance** на **отдельные** переменные. К названиям переменных ВМ добавьте в начало префикс **vm_web_** .  Пример: **vm_web_name**.
 2. Объявите нужные переменные в файле variables.tf, обязательно указывайте тип переменной. Заполните их **default** прежними значениями из main.tf. 
-3. Проверьте terraform plan. Изменений быть не должно. 
+3. Проверьте terraform plan. Изменений быть не должно.
+      ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/88157c3f-01c5-4dd9-8883-23b44c125d67)
+
 
 
 ### Задание 3
@@ -86,6 +88,7 @@ https://console.cloud.yandex.ru/folders/<ваш cloud_id>/vpc/security-groups.
 2. Также поступите с блоком **metadata {serial-port-enable, ssh-keys}**, эта переменная должна быть общая для всех ваших ВМ.
 3. Найдите и удалите все более не используемые переменные проекта.
 4. Проверьте terraform plan. Изменений быть не должно.
+
 
 ------
 
