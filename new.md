@@ -31,13 +31,23 @@ https://console.cloud.yandex.ru/folders/<ваш cloud_id>/vpc/security-groups.
 2. Переименуйте файл personal.auto.tfvars_example в personal.auto.tfvars. Заполните переменные: идентификаторы облака, токен доступа. Благодаря .gitignore этот файл не попадёт в публичный репозиторий. **Вы можете выбрать иной способ безопасно передать секретные данные в terraform.**
 3. Сгенерируйте или используйте свой текущий ssh-ключ. Запишите его открытую часть в переменную **vms_ssh_root_key**.
 4. Инициализируйте проект, выполните код. Исправьте намеренно допущенные синтаксические ошибки. Ищите внимательно, посимвольно. Ответьте, в чём заключается их суть.
-5. Ответьте, как в процессе обучения могут пригодиться параметры ```preemptible = true``` и ```core_fraction=5``` в параметрах ВМ. Ответ в документации Yandex Cloud.
+   ```
+   Яндекс cloud использует три версии стандартной платформы, я выбрал v1 и там базовое значение частоты cpu равно 2
+   ```
+6. Ответьте, как в процессе обучения могут пригодиться параметры ```preemptible = true``` и ```core_fraction=5``` в параметрах ВМ. Ответ в документации Yandex Cloud.
+   ```
+   Прерываемые виртуальные машины нужны с процессе обучения для принудительной остановке, при нехватке ресурсов и стоимость их ниже
+   core_fraction уровень производительности ядра. На этапе обучения достаточно минимума ресурсов
+   ```
 
 В качестве решения приложите:
 
 - скриншот ЛК Yandex Cloud с созданной ВМ;
+- ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/ced7b738-ce9c-472b-abd8-fbf1cce7c6dd)
+
 - скриншот успешного подключения к консоли ВМ через ssh. К OS ubuntu необходимо подключаться под пользователем ubuntu: "ssh ubuntu@vm_ip_address";
-- ответы на вопросы.
+- ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/8340d27c-70bb-4960-bb31-839fe173729f)
+
 
 
 ### Задание 2
@@ -45,7 +55,9 @@ https://console.cloud.yandex.ru/folders/<ваш cloud_id>/vpc/security-groups.
 1. Изучите файлы проекта.
 2. Замените все хардкод-**значения** для ресурсов **yandex_compute_image** и **yandex_compute_instance** на **отдельные** переменные. К названиям переменных ВМ добавьте в начало префикс **vm_web_** .  Пример: **vm_web_name**.
 2. Объявите нужные переменные в файле variables.tf, обязательно указывайте тип переменной. Заполните их **default** прежними значениями из main.tf. 
-3. Проверьте terraform plan. Изменений быть не должно. 
+3. Проверьте terraform plan. Изменений быть не должно.
+      ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/88157c3f-01c5-4dd9-8883-23b44c125d67)
+
 
 
 ### Задание 3
@@ -54,6 +66,8 @@ https://console.cloud.yandex.ru/folders/<ваш cloud_id>/vpc/security-groups.
 2. Скопируйте блок ресурса и создайте с его помощью вторую ВМ в файле main.tf: **"netology-develop-platform-db"** ,  cores  = 2, memory = 2, core_fraction = 20. Объявите её переменные с префиксом **vm_db_** в том же файле ('vms_platform.tf').
 3. Примените изменения.
 
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/a8f39e30-82ea-4514-b01c-0e15cec16136)
+
 
 ### Задание 4
 
@@ -61,6 +75,9 @@ https://console.cloud.yandex.ru/folders/<ваш cloud_id>/vpc/security-groups.
 2. Примените изменения.
 
 В качестве решения приложите вывод значений ip-адресов команды ```terraform output```.
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/29df32e2-9ddc-4632-b9ef-ade948d34291)
+
+
 
 
 ### Задание 5
@@ -68,6 +85,8 @@ https://console.cloud.yandex.ru/folders/<ваш cloud_id>/vpc/security-groups.
 1. В файле locals.tf опишите в **одном** local-блоке имя каждой ВМ, используйте интерполяцию ${..} с несколькими переменными по примеру из лекции.
 2. Замените переменные с именами ВМ из файла variables.tf на созданные вами local-переменные.
 3. Примените изменения.
+      ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/a1e529e0-d80f-4682-8945-88e6e2000a19)
+
 
 
 ### Задание 6
@@ -76,6 +95,9 @@ https://console.cloud.yandex.ru/folders/<ваш cloud_id>/vpc/security-groups.
 2. Также поступите с блоком **metadata {serial-port-enable, ssh-keys}**, эта переменная должна быть общая для всех ваших ВМ.
 3. Найдите и удалите все более не используемые переменные проекта.
 4. Проверьте terraform plan. Изменений быть не должно.
+      ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/8a10db11-59f1-4ce7-aadc-b416726c4f52)
+
+
 
 ------
 
