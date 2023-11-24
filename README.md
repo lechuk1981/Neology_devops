@@ -88,9 +88,10 @@
 
      ```
       у меня стоит keep_localдy = true поэтому контейнер и не удаляется
+     ```
      ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/2a15c70b-188a-4bd5-bda9-2a017bac4d43)
 
-     ```
+     
 ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/4df9c8d2-c042-47e8-acd1-f90d9258672c)
 
 
