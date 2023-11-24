@@ -37,36 +37,6 @@ resource "yandex_compute_instance" "platform" {
   metadata = {
      serial-port-enable = var.metadata[0]
       ssh-keys           = var.metadata[1]
-<<<<<<< HEAD
-=======
-  }
-
-}
-resource "yandex_compute_instance" "platform_db" {
-  name        = local.name2
-  platform_id = var.vm_web_platform_id
-
-  resources {
-    cores         = var.vm_db_resources.cores
-    memory        = var.vm_db_resources.memory
-    core_fraction = var.vm_db_resources.core_fraction
-  }
-  boot_disk {
-    initialize_params {
-      image_id = data.yandex_compute_image.ubuntu.image_id
-    }
-  }
-  scheduling_policy {
-    preemptible = true
-  }
-  network_interface {
-    subnet_id = yandex_vpc_subnet.develop.id
-    nat       = true
-  }
-   metadata = {
-    serial-port-enable = var.metadata[0]
-    ssh-keys           = var.metadata[1]
->>>>>>> c32d6f456ff9df421862d37a749f00c394d8023e
   }
 
 }
@@ -95,5 +65,3 @@ resource "yandex_compute_instance" "platform_db" {
     serial-port-enable = var.metadata[0]
     ssh-keys           = var.metadata[1]
   }
-
-}
