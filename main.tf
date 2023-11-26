@@ -61,7 +61,8 @@ resource "yandex_compute_instance" "platform_db" {
     subnet_id = yandex_vpc_subnet.develop.id
     nat       = true
   }
-   metadata = {
+  metadata = {
     serial-port-enable = var.metadata[0]
     ssh-keys           = var.metadata[1]
   }
+}
