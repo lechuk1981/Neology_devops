@@ -10,7 +10,7 @@ ${i["name"]}   ansible_host=${i["network_interface"][0]["ip_address"]}
 
 [databases]
 
-%{~ for i in fe_instance ~}
+%{~ for i in database ~}
 %{ if "${i["network_interface"][0]["nat"]}" != false }
 ${i["name"]}   ansible_host=${i["network_interface"][0]["nat_ip_address"]}
 %{ else }
@@ -20,7 +20,7 @@ ${i["name"]}   ansible_host=${i["network_interface"][0]["ip_address"]}
 
 [storage]
 
-%{~ for i in stor_instance ~}
+%{~ for i in storage ~}
   %{ if "${i["network_interface"][0]["nat"]}" != false }
 ${i["name"]}   ansible_host=${i["network_interface"][0]["nat_ip_address"]}
 %{ else }

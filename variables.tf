@@ -30,3 +30,17 @@ variable "vpc_name" {
   default     = "develop"
   description = "VPC network&subnet name"
 }
+
+variable "each_vm" {
+  type = list(object({
+    name = string
+    cpu  = number
+    ram  = number
+    frac = number
+  }))
+  default = [
+    { name = "main", cpu = 4, ram = 2, frac = 20 },
+    { name = "replica", cpu = 2, ram = 4, frac = 5 }
+
+  ]
+}
