@@ -1,15 +1,15 @@
 resource "yandex_compute_instance" "web" {
-  count = 2
+  count = var.vm_web.count
   name = "develop-web-${count.index + 1}"
   resources {
-        cores           = 2
-        memory          = 1
-        core_fraction = 5
+        cores           = var.vm_web.cores
+        memory          = var.vm_web.memory
+        core_fraction   = var.vm_web.core_fraction
   }
 
   boot_disk {
         initialize_params {
-        image_id = "fd8g64rcu9fq5kpfqls0"
+        image_id = var.image_id
         }
   }
 
