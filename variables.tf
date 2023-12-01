@@ -46,6 +46,8 @@ variable "vm_storage" {
     cores         = 2,
     memory        = 1,
     core_fraction = 5,
+    count         = 2,
+    size          =1,
     name         = "storage"
   }
 }
