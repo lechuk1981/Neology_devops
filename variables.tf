@@ -30,6 +30,26 @@ variable "vpc_name" {
   default     = "develop"
   description = "VPC network&subnet name"
 }
+variable "vm_web" {
+  type    = map(any)
+  default = {
+    cores         = 2,
+    memory        = 1,
+    core_fraction = 5,
+    count         = 2
+  }
+}
+
+variable "vm_storage" {
+  type    = map(any)
+  default = {
+    cores         = 2,
+    memory        = 1,
+    core_fraction = 5,
+    name         = "storage"
+  }
+}
+
 
 variable "each_vm" {
   type = list(object({
@@ -43,4 +63,8 @@ variable "each_vm" {
     { name = "replica", cpu = 2, ram = 4, frac = 5 }
 
   ]
+}
+variable "image_id" {
+    type        = string
+    default = "fd8g64rcu9fq5kpfqls0"
 }
