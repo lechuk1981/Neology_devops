@@ -1,7 +1,7 @@
 resource "yandex_compute_disk" "storage" {
-  count   = 3
+  count   = var.vm_storage.count
   name  = "disk-${count.index + 1}"
-  size  = 1
+  size  = var.vm_storage.size
 }
 
 
