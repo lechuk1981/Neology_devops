@@ -92,6 +92,8 @@ module "vpc_dev" {
 Приложите список выполненных команд и скриншоты процессы.
 
 ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/e259da80-6701-439b-92d1-2eb014c48281)
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/133b5b9e-39fd-49e0-82dc-3aa3e827af3b)
+
 
 
 ## Дополнительные задания (со звёздочкой*)
