@@ -1,3 +1,5 @@
-#locals {
-#  ssh-key = "ubuntu:${file("~/.ssh/yandex.pub")}"
-#}
+locals {
+  #ssh-key = "ubuntu:${file("~/.ssh/id_ed25519.pub")}"
+  ssh-key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDAaPCmFt6hesCLHEFCFFkWZsXAfmYBpyiHmuh6mAYtxNgdjAfXgR6Pffz9UEAatWdzg1lGbUtaCmPFY+2WKmDJu8Qy3KDJP1RlhlcPvlGKQPvU4qDL9NcrIrFV5eK9uIZV69MMF1PiySwhvoI+Aku2P5SNmzNN3Z29QF1YgiJJ5XD2T+fQJ5Po0M3OEInQ5mf1bB/OiJlm/NVYu1JDgIe74AkAqPeEuJF4Cbk/klaLZvKmXF33bnjx6poLqfliWzuHQZRKpCP6x5bfQj/ISXRAaat/huVxaf1aw6fXsBxUsbEFpNgSFjG6c0S2NxAQAfATfvVfbuw3Lycnikx4EPCK6ngncLArV9er4K/PJeNvLwc7IfmF+kxYgiy4bhazIl0ZCmSikq2/JWk2aIFy7NTOhnRoy1UPthR0d3aVeo3nLkbvLUhgUR6GsBwv04ITi9Tr73uE3EHFiE59z9jttN43ce2HBEJ9DKhACINHJqFXP2Cb1PKngC+EEeEBsORb4F0= parallels@ubuntu-linux-22-04-02-desktop"
+
+}
