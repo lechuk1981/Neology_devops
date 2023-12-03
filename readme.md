@@ -93,6 +93,7 @@ module "vpc_dev" {
 
 ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/e259da80-6701-439b-92d1-2eb014c48281)
 ![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/133b5b9e-39fd-49e0-82dc-3aa3e827af3b)
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/f8105a18-d8cd-4d1b-9e09-f3140f8affa4)
 
 
 
