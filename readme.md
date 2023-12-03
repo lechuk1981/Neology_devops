@@ -22,6 +22,7 @@
 3. Модуль должен возвращать в root module с помощью output информацию о yandex_vpc_subnet. Пришлите скриншот информации из terraform console о своем модуле. Пример: > module.vpc_dev  
 4. Замените ресурсы yandex_vpc_network и yandex_vpc_subnet созданным модулем. Не забудьте передать необходимые параметры сети из модуля vpc в модуль с виртуальной машиной.
 5. Откройте terraform console и предоставьте скриншот содержимого модуля. Пример: > module.vpc_dev.
+![image](https://github.com/lechuk1981/Netology_devops/assets/5323690/59add34a-ac3b-44fe-b757-ec931ab4e2ce)
 6. Сгенерируйте документацию к модулю с помощью terraform-docs.    
  
 Пример вызова
